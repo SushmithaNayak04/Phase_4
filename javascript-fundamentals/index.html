@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="myscript.css">
+</head>
+
+<body>
+    <h2>Photo Gallery Project</h2>
+
+    <p id="desc">Hover over an image below to display here..</p>
+
+    <p id="content">
+        This program is free software; you can redistribute it and/or modify it under the terms of the GNU General
+        Public License as published by the Free Software Foundation; either version 2 of the License, or (at your
+        option) any later version.
+        This program is free software; you can redistribute it and/or modify it under the terms of the GNU General
+        Public License as published by the Free Software Foundation; either version 2 of the License, or (at your
+        option) any later version.
+        This program is free software; you can redistribute it and/or modify it under the terms of the GNU General
+        Public License as published by the Free Software Foundation; either version 2 of the License, or (at your
+        option) any later version.
+    </p>
+
+    <div id="buttons">
+        <button onclick="showContent()">Show Explaination</button>
+        <button onclick="hideContent()">Hide Explaination</button>
+    </div>
+
+    <br />
+    <hr />
+
+    <img src="./images/1.png" alt="TypeScript Tutorial One" height="150" width="250" onmouseover="update(this)"
+        onmouseout="unDo()" />
+    <img src="./images/2.png" alt="TypeScript Tutorial Two" height="150" width="250" onmouseover="update(this)"
+        onmouseout="unDo()" />
+    <img src="./images/3.png" alt="TypeScript Tutorial Three" height="150" width="250" onmouseover="update(this)"
+        onmouseout="unDo()" />
+    <img src="./images/4.png" alt="TypeScript Tutorial Four" height="150" width="250" onmouseover="update(this)"
+        onmouseout="unDo()" />
+    <img src="./images/5.png" alt="TypeScript Tutorial Five" height="150" width="250" onmouseover="update(this)"
+        onmouseout="unDo()" />
+
+    <script src="./myscript.js"></script>
+</body>
+
+</html>
